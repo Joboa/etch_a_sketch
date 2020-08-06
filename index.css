@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+.resetDiv{
+    border: none;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 2px;
+    padding-left: 200px;
+    background-color: orange;
+}
+
+.resetDiv button {
+    background-color: black;
+    color: white;
+    
+}
