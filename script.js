@@ -22,7 +22,7 @@ function etchAsketch() {
 
 
 function userCall() {
-    user = prompt('Enter number of divs:');
+    user = prompt('How many squares per side to make the new grid?');
 }
 
 function getInputValue() {
@@ -59,21 +59,3 @@ resetButton.onclick = () => {
 }
 etchAsketch();
 
-
-//  createDiv(userCall());
-
-//  // remove the small divs created
-//  
-//     resetButton = onclick = () => {
-//     container.innerHTML = "";
-//     user = prompt('Enter number of divs:');
-//     container.style['grid-template-columns'] =`repeat(${user}, auto)`;
-//     let value = user*user;
-//     createDiv(value);
-//}
-//     container.remove()
-//     user = prompt('Enter number of divs:');
-//     container.style['grid-template-columns'] =`repeat(${user}, auto)`;
-//     value = user*user;
-//     createDiv(value);
-//}
